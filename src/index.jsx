@@ -53,7 +53,7 @@ export default class Home extends React.Component {
             />,
             <div id="f-t" key="f-t" style={{ height: 80 }}></div>,
             <Footer0
-                style={{ position: 'fixed', bottom: 0, left: 0, width: '100%' }}
+                style={{ position: 'fixed', bottom: 0, left: 0, width: '100%', textDecoration: 'none' }}
                 id="Footer0_0"
                 key="Footer0_0"
                 dataSource={Footer00DataSource}
