@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "ESNext",
+        "jsx": "react",
+        "sourceMap": true,
+        "noEmit": false,
+        "isolatedModules": true,
+        "strict": false,
+        "noImplicitAny": false,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "baseUrl": "src",
+        "paths": {
+            "@server/*": ["server/*"],
+            "@client/*": ["*"],
+            "@/*": ["*"]
+        },
+        "typeRoots": ["./node_modules/@types"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "lib": ["DOM"]
+    },
+    "include": ["src"],
+    "exclude": ["webpack", "node_modules/**"]
+}
