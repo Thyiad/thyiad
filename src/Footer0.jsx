@@ -17,6 +17,9 @@ class Footer extends React.PureComponent {
                         {...dataSource.copyright}
                     >
                         {dataSource.copyright.children}
+                        <a style={{ marginLeft: 8 }} href="http://beian.miit.gov.cn" target="_blank" rel="noreferrer">
+                            沪ICP备2020037732号
+                        </a>
                     </TweenOne>
                 </OverPack>
             </div>

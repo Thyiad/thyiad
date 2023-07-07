@@ -51,6 +51,14 @@ export default class Home extends React.Component {
                 dataSource={Feature00DataSource}
                 isMobile={this.state.isMobile}
             />,
+            <div id="f-t" key="f-t" style={{ height: 80 }}></div>,
+            <Footer0
+                style={{ position: 'fixed', bottom: 0, left: 0, width: '100%' }}
+                id="Footer0_0"
+                key="Footer0_0"
+                dataSource={Footer00DataSource}
+                isMobile={this.state.isMobile}
+            />,
         ];
         return (
             <div
